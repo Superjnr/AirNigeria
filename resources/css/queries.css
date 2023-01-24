@@ -1,0 +1,868 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .first-section {
+        width: 100%; }
+
+        .row {margin: 0px 10px;}
+  } 
+
+  .btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 20px;
+    position: relative; top: 57px; 
+    transition: background-color 0.5s;
+}  
+
+
+header h2 {
+    color: green;
+    position: relative; top: 25px;;
+}
+
+input[type=date],
+select {
+    border-radius: 20px;
+}
+
+.btn-learn:link, 
+.btn-learn:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 15px 35px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.btn-learn:hover,
+.btn-learn:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 20px 80px;
+    border-radius: 20px;
+    position: relative; top: 57px;
+}
+
+  /* Small tablets to big tablet : from 970px to 1023px */
+  @media only screen and (max-width: 1023px) {
+    .row { padding: 0 2%;}
+
+    header h2 {
+        color: green;
+        position: relative; top: 25px;
+        font-size: 20px;
+    }
+
+
+    .nav li{
+        display: inline-block;
+        margin-left: 10px;
+        position: relative; right: 0px; top: 0.8px;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 10px;
+        position: relative; right: 0px; top: 0.8px;
+        margin-bottom: 5px;
+        border-bottom: 3px solid green;
+    }
+.btn-full:link, 
+.btn-full:visited{
+    background: green;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 5px;
+    position: relative; top: 0.8px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 11px 30px;
+    border-radius: 5px;
+    position: relative; top: 0.8px;
+}
+
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative; top: 0.8px;
+    transition: background-color 1s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative; top: 0.8px;
+}
+
+.first-section .text-box {
+    padding-top: 60px;
+}
+.first-section h2 {
+    color: white;
+    font-size: 35px;
+}
+.first-section img {
+    height: 250px;
+    width: 250px;
+    margin-left: -22px;
+}
+
+.book form {
+    position: relative; top: 25px; left: 25px;
+}
+
+input[type=date],
+select {
+    width: 90%;
+    padding: 10px 2px;
+    border-radius: 20px;
+}
+
+.btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 20px;
+    position: relative; top: 54px; 
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 16px 20px;
+    border-radius: 20px;
+    position: relative; top: 54px;
+}
+
+span {
+  display: none;  
+}
+
+.first-section h2 {
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.second-section .row {
+    padding: 90px 5px 10px 5px;
+}
+.second-section img {
+    height: 180px;
+    width: 210px;
+}
+.second-section p{
+    padding: 0px 0px 5px 0px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.second-section h4{
+    font-size: 15px;
+}
+.btn-book:link,
+.btn-book:visited {
+    background: green;
+    color: white;
+    padding: 8px 6px;
+    border-radius: 15px;
+    position: relative; left: 120px; bottom: 33px; 
+    transition: background-color 0.5s;
+}  
+
+.btn-book:hover,
+.btn-book:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 8px 6px;
+    border-radius: 15px;
+    position: relative; left: 120px; bottom: 33px; 
+}
+
+.trip {
+    background-color: white;
+    width: 94%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative; bottom: 5px;
+}
+
+.third-section img {
+    height: 300px;
+    width: 400px;
+    margin-left: 0px;
+}
+.long-copy {
+    margin-left: 50px;
+    font-size: 14px;
+    position: relative; bottom: 45px;
+}
+
+.third-section h3 {
+    color: green;
+    position: relative; bottom: 0px;
+    text-align: center;
+}
+.para p {
+    position: relative; bottom: 40px; left: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.third-section h4 {
+    color: rgb(35, 34, 34);
+    margin: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.about {
+    text-align: center;
+}
+
+.last-section {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.last-section i{
+    color: white;
+    padding: 40px 10px;
+    font-size: 20px;
+    transition: color 0.5s;
+ }
+ 
+ .last-section i:hover,
+ .last-section i:active{
+     color: rgb(92, 199, 92);
+     padding: 40px 10px;
+     font-size: 20px;
+  }    
+  }
+  /* small phones to small tablets : from 481px to 767px */
+  @media only screen and (max-width: 767px) {
+    .row { padding: 0 2%;}
+
+    header h2 {
+        color: green;
+        position: relative; top: 23px; right: 10px;
+        font-size: 16px;
+    }
+
+    .first-section h2 {
+        color: white;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .nav li{
+        display: inline-block;
+        margin-left: 2px;
+        position: relative; left: 15px;
+        transition: border-bottom 0.3s ;
+    }
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 2px;
+        position: relative; left: 15px;
+        margin-bottom: 3px;
+        border-bottom: 2px solid green;
+    }
+
+.btn-full:link, 
+.btn-full:visited{
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.btn-book:link,
+.btn-book:visited {
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative; left: 24px; bottom: 7px; 
+    transition: background-color 0.5s;
+}  
+
+.btn-book:hover,
+.btn-book:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: relative; left: 24px; bottom: 7px; 
+}
+
+.btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 15px 7px;
+    border-radius: 20px;
+    position: relative; top: 44px; 
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 15px 7px;
+    border-radius: 20px;
+    position: relative; top: 44px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 11.5px;
+    color: rgb(145, 136, 136);
+    transition: color 0.3s ;
+  }
+  
+  a:hover,
+  a:active {
+      text-decoration: none;
+      font-size: 11.5px;
+      color: black;
+  }
+
+  .first-section img {
+    height: 270px;
+    width: 245px;
+    margin-left: -21px;
+}
+
+h4 {
+    padding: 10px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.book form {
+    position: relative; top: 35px; left: 12px;
+}
+
+input[type=date],
+select {
+    width: 100%;
+    padding: 10px 2px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.second-section .row {
+    padding: 90px 5px 10px 5px;
+}
+.second-section img {
+    height: 150px;
+    width: 125px;
+}
+.second-section p{
+    padding: 0px 0px 3px 0px;
+    font-size: 14px;
+    line-height: 1em;
+}
+.second-section h5{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.second-section h4{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.third-section img {
+    height: 370px;
+    width: 270px;
+    margin-left: -10px;
+}
+.long-copy {
+    margin-left: 60px;
+    font-size: 10.6px;
+    position: relative; bottom: 30px;
+}
+
+.third-section h3 {
+    color: green;
+    position: relative; bottom: -12px;
+    text-align: center;
+}
+.para p {
+    position: relative; bottom: 40px; left: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.third-section h4 {
+    color: rgb(35, 34, 34);
+    margin: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.third-section h2 {
+    color: green;
+    font-size: 28px;
+}
+
+.about {
+    text-align: center;
+}
+
+.last-section {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.last-section i{
+    color: white;
+    padding: 40px 5px;
+    font-size: 20px;
+    transition: color 0.5s;
+ }
+ 
+ .last-section i:hover,
+ .last-section i:active{
+     color: rgb(92, 199, 92);
+     padding: 40px 5px;
+     font-size: 20px;
+  }    
+
+  .last-section p {
+      font-size: 13px;
+  }
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .row { padding: 0 2%;}
+    a {
+        text-decoration: none;
+        font-size: 9.2px;
+        color: rgb(145, 136, 136);
+        transition: color 0.3s ;
+      }
+      
+      a:hover,
+      a:active {
+          text-decoration: none;
+          font-size: 9px;
+          color: black;
+      }
+      
+    .nav li{
+        display: inline-block;
+        margin-left: 1px;
+        position: relative; left: 20px; top: 1px;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 1px;
+        position: relative; left: 20px; top: 1px;
+        margin-bottom: 3px;
+        border-bottom: 1px solid green;
+    }
+    header h2 {
+        color: green;
+        position: relative; top: 23px; right: 10px;
+        font-size: 14px;
+    }
+    .first-section h2 {
+        color: white;
+        font-size: 30px;
+        padding: 20px 0px 0px 0px;
+    }
+    .first-section p {
+        color: white;
+        padding: 10px 0px 10px 0px;
+    }
+    .first-section img {
+        height: 290px;
+        width: 365px;
+        margin-left: -21px;
+    }
+    
+input[type=date],
+select {
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.book form {
+    position: relative; top: 35px; left: 0px;
+}
+.second-section .row {
+    padding: 580px 5px 0px 5px;
+}
+.second-section img {
+    height: 300px;
+    width: 345px;
+}
+.abuja {
+    position: relative; bottom: 400px;
+    padding-bottom: 200px;
+}
+.lagos {
+    position: relative; bottom: 400px;
+}
+.accra {
+    position: relative; bottom: 200px;
+}
+.second-section p{
+    padding: 0px 0px 5px 0px;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-left: 30px;
+}
+.second-section h5{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.second-section h4{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.second-section h3 {
+    padding: 25px 0px 0px 0px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.second-section h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 15px 80px;
+    border-radius: 20px;
+    position: relative; top: 24px; left: 60px; 
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 15px 80px;
+    border-radius: 20px;
+    position: relative; top: 24px; left: 60px;
+}
+.trip {
+    background-color: white;
+    width: 102%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative; bottom: 5px;
+}
+.btn-book:link,
+.btn-book:visited {
+    background: green;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    position: relative; left: 220px; bottom: 40px; 
+    transition: background-color 0.5s;
+}  
+
+.btn-book:hover,
+.btn-book:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    position: relative; left: 220px; bottom: 40px; 
+}
+
+
+.third-section img {
+    height: 370px;
+    width: 380px;
+    position: relative; bottom: 15px;
+}
+.long-copy {
+    margin-left: 0px;
+    font-size: 14px;
+    position: relative; bottom: 10px;
+}
+
+.third-section h3 {
+    color: green;
+    position: relative; bottom: -10px;
+    text-align: center;
+}
+.para p {
+    position: relative; bottom: 50px; left: 2px;
+    font-size: 16px;
+    color: white;
+}
+
+.third-section h4 {
+    color: rgb(35, 34, 34);
+    margin: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.third-section h2 {
+    color: green;
+    font-size: 28px;
+}
+
+.about {
+    text-align: center;
+}
+
+.last-section {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.last-section i{
+    color: white;
+    padding: 40px 5px;
+    font-size: 20px;
+    transition: color 0.5s;
+ }
+ 
+ .last-section i:hover,
+ .last-section i:active{
+     color: rgb(92, 199, 92);
+     padding: 40px 5px;
+     font-size: 20px;
+  }    
+
+  .last-section p {
+      font-size: 13px;
+  }
+.btn-full:link, 
+.btn-full:visited{
+    background: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative; top: 1px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative; top: 1px;
+}
+
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 4px 10px;
+    border-radius: 5px;
+    position: relative; top: 1px;
+    transition: background-color 1s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    position: relative; top: 1px;
+}
+.btn-learn:link, 
+.btn-learn:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.btn-learn:hover,
+.btn-learn:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 5px;
+}
+
+input[type=date],
+select {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 400px) {
+    .row { padding: 0 2%;}
+
+    header h2 {
+        color: green;
+        position: relative; top: 23px;
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 8.2px;
+        color: rgb(145, 136, 136);
+        transition: color 0.3s ;
+      }
+      
+      a:hover,
+      a:active {
+          text-decoration: none;
+          font-size: 7.5px;
+          color: black;
+      }
+      
+    .nav li{
+        display: inline-block;
+        margin-left: 1px;
+        position: relative; left: 20px; top: 1px;
+        transition: border-bottom 0.3s ;
+    }
+    
+    .nav li:hover,
+    .nav li:active {
+        display: inline-block;
+        margin-left: 1px;
+        position: relative; left: 20px; top: 1px;
+        margin-bottom: 3px;
+        border-bottom: 1px solid green;
+    }
+
+    .second-section img {
+        height: 300px;
+        width: 322px;
+    }
+
+.btn-book:link,
+.btn-book:visited {
+    background: green;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    position: relative; left: 195px; bottom: 40px; 
+    transition: background-color 0.5s;
+}  
+
+.btn-book:hover,
+.btn-book:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    position: relative; left: 195px; bottom: 40px; 
+}
+.btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 15px 80px;
+    border-radius: 20px;
+    position: relative; top: 24px; left: 50px; 
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 15px 80px;
+    border-radius: 20px;
+    position: relative; top: 24px; left: 50px;
+}
+.first-section h2 {
+    color: white;
+    font-size: 30px;
+    padding: 20px 0px 0px 0px;
+}
+
+input[type=date],
+select {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+}

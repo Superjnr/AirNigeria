@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*=========Header==============*/
+header {
+    padding-bottom: 20px;
+}
+header h2 {
+    color: green;
+    position: relative; top: 25px;
+}
+.nav-button {
+    float: right;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.nav {
+    list-style: none;
+    float: right;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 50px;
+    position: relative; right: 140px; bottom: 8px;
+    transition: border-bottom 0.3s ;
+}
+
+.nav li:hover,
+.nav li:active {
+    display: inline-block;
+    margin-left: 50px;
+    position: relative; right: 140px; bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid green;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(145, 136, 136);
+  transition: color 0.3s ;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+/*=======STICKY=========*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98  );
+    box-shadow: 0px 2px 2px #efefef;
+    z-index: 9999;
+}
+
+/*=======BUTTONS=========*/
+.btn-full:link, 
+.btn-full:visited{
+    background: green;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    position: relative; bottom: 8px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 16px 35px;
+    border-radius: 5px;
+    position: relative; bottom: 8px;
+}
+
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 15px 35px;
+    border-radius: 5px;
+    position: relative; bottom: 8px;
+    transition: background-color 1s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    position: relative; bottom: 8px;
+}
+
+.btn-learn:link, 
+.btn-learn:visited{
+    border: 1px solid rgb(214, 209, 209);
+    color: green;
+    padding: 15px 35px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.btn-learn:hover,
+.btn-learn:active {
+    border:  1px solid rgb(214, 209, 209);
+    background:rgb(3, 84, 3) ;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+.btn:link,
+.btn:visited {
+    background: green;
+    color: white;
+    padding: 20px 82px;
+    border-radius: 5px;
+    position: relative; top: 57px; 
+    transition: background-color 0.5s;
+}  
+
+.btn:hover,
+.btn:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 20px 82px;
+    border-radius: 5px;
+    position: relative; top: 57px;
+}
+
+.btn-book:link,
+.btn-book:visited {
+    background: green;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    position: relative; left: 170px; bottom: 35px; 
+    transition: background-color 0.5s;
+}  
+
+.btn-book:hover,
+.btn-book:active {
+    background: rgb(3, 84, 3);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    position: relative; left: 170px; bottom: 35px; 
+}
+
+/*=======First Section=========*/
+.first-section {
+    background-image: url(img/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.first-section h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.first-section p {
+    color: white;
+    padding: 10px 0px 20px 0px;
+}
+
+.first-section .text-box {
+    padding-top: 100px;
+}
+
+.first-section img {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+input[type=date],
+select {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+.book {
+    background-color: rgb(252, 252, 252);
+    position: relative; top: 250px;
+    width: 100%;
+}
+
+h4 {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.book form {
+    position: relative; top: 20px; right: 20px;
+}
+
+.pilot {
+    transform: scale(1.);
+}
+
+.pilot :hover {
+    transform: scale(1.25);
+}
+
+/*=======Second Section=========*/
+.second-section {
+    background-color: rgb(230, 223, 223);
+}
+
+.second-section .row {
+    padding: 90px 0px 10px 0px;
+    animation: bounceInUp;
+    animation-duration: 5s;
+    offset: 50%;
+    animation-delay: 1s;
+}
+
+.second-section h2,
+h5 {
+    color: green;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.second-section h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.second-section h4 {
+    text-align: left;
+}
+
+.second-section p{
+    padding: 0px 0px 5px 0px;
+}
+
+.second-section img {
+    height: 200px;
+    width: 300px;
+}
+
+.trip {
+    background-color: white;
+    width: 82%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative; bottom: 5px;
+}
+
+.second-section p,h4,h5 {
+    margin-left: 15px;
+}
+
+/*=======Third Section=========*/
+.third-section {
+    background-color: rgba(232, 231, 231, 0.793);
+}
+
+.third-section img {
+    height: 400px;
+    width: 800px;
+    margin-left: -120px;
+}
+
+.third-section .row {
+    padding: 40px 0px 10px 0px;
+    animation: bounceInLeft;
+    animation-duration: 5s;
+    offset: 50%;
+    animation-delay: 3s;
+}
+
+
+.long-copy {
+    margin-left: 200px;
+    font-size: 17px;
+    line-height: 1.25em;
+    position: relative; bottom: 45px;
+}
+
+.third-section h2 {
+    color: green;
+    text-align: center;
+}
+
+.third-section h3 {
+    color: green;
+    text-align: center;
+    position: relative; bottom: 0px;
+}
+
+.third-section h4 {
+    color: rgb(35, 34, 34);
+    margin: 0px;
+}
+
+.para p {
+    position: relative; bottom: 40px; right: 70px;
+    color: white;
+}
+
+/*=======Footer=========*/
+.last-section {
+    background-color: green;
+    color: white;
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.last-section a {
+    font-size:18px ;
+    color: white;
+    transition: color 0.5s;
+}
+
+.last-section a:hover,
+ .last-section a:active{
+     color: black;
+     font-size: 18px;
+  }
+
+.last-section i{
+    color: white;
+    padding: 40px 20px;
+    font-size: 20px;
+    transition: color 0.5s;
+ }
+ 
+ .last-section i:hover,
+ .last-section i:active{
+     color: rgb(92, 199, 92);
+     padding: 40px 20px;
+     font-size: 20px;
+  }
